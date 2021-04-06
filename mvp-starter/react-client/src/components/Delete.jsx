@@ -19,7 +19,9 @@ export default class Delete extends Component {
     const { prod } = this.props.location.state;
     return (
       <div>
+        {console.log('hassin props ',this.props)}
         <h1>Delete</h1>
+        {console.log('all my props',this.props)}
         {console.log("delete props", prod, '***********', prod.id)}
         <button className="btn-del" type="submit" onClick={this.onDelete}>
           do you realy want to delete this {prod.name} from shop

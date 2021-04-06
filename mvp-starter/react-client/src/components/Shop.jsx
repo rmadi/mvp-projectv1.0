@@ -19,6 +19,7 @@ export default class Shop extends Component {
           {/* {console.log(products)} */}
           <h1>Hello You</h1>
           <ul>
+            {console.log('all my props',this.props)}
             {data.map((prod) => {
               return (
                 <li key={prod.id}>

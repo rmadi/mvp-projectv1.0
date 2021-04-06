@@ -38,7 +38,8 @@ export default class Basket extends Component {
     return (
       <div>
         <div>
-          {console.log(
+{          console.log('send it from home ',this.props)
+}          {console.log(
             this.props.location.state.id,
             "\n data one",
             this.props.location.state.prod,
